@@ -1,0 +1,337 @@
+h1{
+    color: rgb(1, 59, 1);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align:center; 
+    color: rgb(1, 59, 1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+    text-align:center;
+    color:rgb(1, 59, 1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h6{
+  text-decoration: underline;
+  color: black;
+}
+body{
+background-color: #487346;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Cg %3E%3Cpolygon fill='%234c8e43' points='100 57.1 64 93.1 71.5 100.6 100 72.1'/%3E%3Cpolygon fill='%236aac5f' points='100 57.1 100 72.1 128.6 100.6 136.1 93.1'/%3E%3Cpolygon fill='%234c8e43' points='100 163.2 100 178.2 170.7 107.5 170.8 92.4'/%3E%3Cpolygon fill='%236aac5f' points='100 163.2 29.2 92.5 29.2 107.5 100 178.2'/%3E%3Cpath fill='%2389CC7C' d='M100 21.8L29.2 92.5l70.7 70.7l70.7-70.7L100 21.8z M100 127.9L64.6 92.5L100 57.1l35.4 35.4L100 127.9z'/%3E%3Cpolygon fill='%2345701a' points='0 157.1 0 172.1 28.6 200.6 36.1 193.1'/%3E%3Cpolygon fill='%235d8831' points='70.7 200 70.8 192.4 63.2 200'/%3E%3Cpolygon fill='%2375A048' points='27.8 200 63.2 200 70.7 192.5 0 121.8 0 157.2 35.3 192.5'/%3E%3Cpolygon fill='%235d8831' points='200 157.1 164 193.1 171.5 200.6 200 172.1'/%3E%3Cpolygon fill='%2345701a' points='136.7 200 129.2 192.5 129.2 200'/%3E%3Cpolygon fill='%2375A048' points='172.1 200 164.6 192.5 200 157.1 200 157.2 200 121.8 200 121.8 129.2 192.5 136.7 200'/%3E%3Cpolygon fill='%2345701a' points='129.2 0 129.2 7.5 200 78.2 200 63.2 136.7 0'/%3E%3Cpolygon fill='%2375A048' points='200 27.8 200 27.9 172.1 0 136.7 0 200 63.2 200 63.2'/%3E%3Cpolygon fill='%235d8831' points='63.2 0 0 63.2 0 78.2 70.7 7.5 70.7 0'/%3E%3Cpolygon fill='%2375A048' points='0 63.2 63.2 0 27.8 0 0 27.8'/%3E%3C/g%3E%3C/svg%3E");
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+input{
+    text-align: center;
+    padding: 10px 25px;
+}
+button{
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    
+  }
+  a:link {
+    color: #030800;
+  }
+  a:visited {
+    color: rgb(1, 59, 1); 
+  }
+  a:focus {
+    background: rgb(165, 169, 144);;
+  }
+  a:hover {
+    background: rgb(191, 230, 191);;
+  }
+  a:active {
+    background: #265301;
+    color: rgb(141, 174, 141);
+  }
+.button1 {
+  background-color: #e6ffe6; 
+  color: black; 
+  border: 2px solid rgb(144, 169, 144);
+}
+
+.button1:hover {
+  background-color: rgb(128, 157, 128);
+  color:white;
+}
+.button3{
+    background-color:#47a386;
+    color:white;
+    text-align: center;
+}
+.button3:hover{
+    background-color:#36715e;
+    color:white;
+}
+.contenedor{
+    border-radius: 5px;
+    background-color: rgb(161, 188, 161);
+    padding: 20px;
+    width:34%;
+    justify-content: center; 
+    display: inline-block;
+    margin-left: 33.333333333333%;
+    margin-right: 34%;
+  
+}
+.contenedorAdm{
+    width: 100%;
+    max-width: 100%;
+    margin:0 auto;
+    overflow: hidden;
+}
+.centrar{
+    text-align: center;
+  
+    overflow: hidden;
+    margin:0 auto;
+}
+
+table{
+ 
+ padding:20px;
+ text-align: center; 
+ border: 1px solid ;
+ border-collapse: collapse;
+ background:white;
+
+}
+table, td, th {
+    border: 1px solid; 
+    padding: 15px; 
+}
+thead{
+ background:rgb(148, 183, 148);
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background:rgb(148, 183, 148);
+  color: white;
+  text-align: center;
+}
+.login{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.h3login{
+    color: white;
+}
+  
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inputGreen input:checked ~ span::after{
+  background:rgb(0, 255, 38);
+  transform:scale(0.9) translate(33px)
+}
+.inputGreen input{
+  display: none;
+}
+.inputGreen span{
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  border-radius:30px;
+  background: rgb(196, 196, 196);
+  cursor: pointer;
+  box-shadow: insert 0px 0px 2px rgb(196, 196, 196);
+}
+.inputGreen span::after{
+  content:"";
+  display: block;
+  width: 30px;
+  height: 30px;
+  transform:scale(0.9);
+  border-radius:30px;
+  background:green;
+  transition: 0.5s;
+  box-shadow: insert 0px 0px 2px  rgb(196, 196, 196);
+}
+
+.inputYellow input:checked ~ span::after{
+  background:rgb(251, 255, 0);
+  transform:scale(0.9) translate(33px)
+}
+.inputYellow input{
+  display: none;
+}
+
+.inputYellow span{
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  border-radius:30px;
+  background:rgb(186, 186, 186);
+  cursor: pointer;
+  box-shadow: insert 0px 0px 2px  rgb(196, 196, 196);
+}
+.inputYellow span::after{
+  content:"";
+  display: block;
+  width: 30px;
+  height: 30px;
+  transform:scale(0.9);
+  border-radius:30px;
+  background:green;
+  transition: 0.5s;
+  box-shadow: insert 0px 0px 2px  rgb(196, 196, 196);
+}
+
+.inputRed input:checked ~ span::after{
+  background:red;
+  transform:scale(0.9) translate(33px)
+}
+.inputRed input{
+  display: none;
+}
+
+.inputRed span{
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  border-radius:30px;
+  background: rgb(196, 196, 196);
+  cursor: pointer;
+  box-shadow: insert 0px 0px 2px  rgb(196, 196, 196);
+}
+.inputRed span::after{
+  content:"";
+  display: block;
+  width: 30px;
+  height: 30px;
+  transform:scale(0.9);
+  border-radius:30px;
+  background:green;
+  transition: 0.5s;
+  box-shadow: insert 0px 0px 2px  rgb(196, 196, 196);
+}
+
+.modalContainer {
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+button {
+  background-color: #47a386;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 25px;
+}
+
+.modal-container {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;  
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: opacity 0.3s ease;
+}
+
+.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.modal {
+  background-color: white;
+  width: 600px;
+  max-width: 100%;
+  padding: 30px 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+ 
+}
+
+.modal h1 {
+  margin: 0;
+}
+
+.modal p {
+  opacity: 0.7;
+  font-size: 20px;
+}
+.alertaRoja{
+  color: red;
+}
+
+.alertaAmarilla{
+  color: rgb(209, 212, 27);
+}
+
+.alertaVerde{
+  color: green;
+}
+.iconify .icono {
+  width: 40px;
+  height: 60px;
+}
+.editar h1{
+  color: #47a386;
+}
